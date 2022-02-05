@@ -1,0 +1,53 @@
+.homeGridContainer {
+  display: grid;
+  grid-template-columns: min-content min-content 5fr;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.navContainer {
+  background-color: var(--color-bg); 
+  width: 4rem;
+}
+
+.navLinksContainer {
+  
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  
+}
+
+.detailContainer {
+  background-color: var(--color-bg-5); 
+  width: 15rem; 
+}
+
+.contentContainer {
+  background-color: var(--color-bg-2);
+}
+
+.logoImage {
+  width: 100%;
+}
+
+.navIconContainer {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-bg-2);
+  height: 3.0rem;
+  width: 3.0rem;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  z-index:1;
+  position:relative;
+}
